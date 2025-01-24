@@ -393,6 +393,12 @@ footer {
     width: 300px;
     height: auto;
 }
+#toggle-button{
+    width: 100px;
+    height: 30px;
+    background-color: #444034;
+    color: #F0E7C6;
+}
 
 /* voor previous project*/
 .projecten-onder {
