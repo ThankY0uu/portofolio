@@ -44,12 +44,14 @@ footer a:hover {
 .buttons {
     display: flex;
     width: auto;
+    justify-content: space-between;
+
 }
 
 .links {
     display: flex;
-    justify-content: flex-end;
-    width: 1250px;
+
+    width: auto;
     padding-top: 20px;
 }
 
@@ -91,11 +93,11 @@ footer a:hover {
 
 .grijs-blok {
     background-color: #444034;
-    width: 1519px;
+    width: auto;
     height: 300px;
-    position: absolute;
+    position: relative;
     left: 0px;
-    top: 700px;
+    top: 600px;
     z-index: -1;
 }
 
@@ -412,7 +414,8 @@ footer {
     justify-content: center;
 }
 
-.contact-text {margin-top: 50px;
+.contact-text {
+    margin-top: 50px;
     text-align: center;
     font-size: 40px;
 }
@@ -470,8 +473,135 @@ footer {
 }
 
 @media only screen and (max-width: 400px) {
-    body {
-        background-color: antiquewhite;
+
+    .buttons {
+        display: flex;
+        width: 430px;
+        justify-content: space-between;
 
     }
+
+    .links {
+        display: flex;  
+        width: auto;
+        padding-top: 20px;
+    }
+
+    .home-button {
+        padding-left: 50px;
+    }
+
+    .links-pages {
+        justify-content: flex-end;
+        display: flex;
+        gap: 60px;
+        color: #444034;
+    }
+
+    .contact-link {
+        width: 140px;
+        height: 15px;
+        padding-bottom: 30px;
+        background-color: #B85B39;
+        justify-content: center;
+        display: flex;
+        border-radius: 20px;
+    }
+
+    .header-background {
+       display: none;
+    }
+
+    .contact-page {
+        height: 100px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .grijs-blok {
+        background-color: #444034;
+        width: auto;
+        height: 300px;
+        position: relative;
+        left: 0px;
+        top: 700px;
+        z-index: -1;
+    }
+
+    .img-header {
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        z-index: 1;
+    }
+
+    .conbodem {
+        position: relative;
+        bottom: 25px;
+    }
+
+    .portofol {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 169px;
+        color: #444034;
+    }
+
+    .contact-extra {
+        width: 300px;
+        height: 40px;
+        background-color: #B85B39;
+        border-radius: 10px;
+        font-size: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .porto-contact {
+      display: none;
+    }
+
+    .text2 {
+        position: absolute;
+        left: 400px;
+        top: 150px;
+    }
+
+    .text3 {
+        position: absolute;
+        left: 400px;
+        top: 275px;
+    }
+
+    .text4 {
+        position: absolute;
+        left: 400px;
+        top: 400px;
+    }
+
+
+    .text1 {
+        color: #F0E7C6;
+        position: absolute;
+        left: 400px;
+        top: 25px;
+        z-index: 2;
+    }
+
+    .footer-shape {
+        height: 200px;
+        width: auto;
+        background-color: #444034;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    footer {
+        font-family: 'montserrat';
+        color: #F0E7C6;
+    }
+
 }
