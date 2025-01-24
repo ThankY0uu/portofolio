@@ -1,0 +1,477 @@
+/*universal code*/
+body {
+    background-color: #F0E7C6;
+    margin: 0;
+    font-family: 'montserrat';
+
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #B85B39;
+    text-decoration: dashed;
+}
+
+.links-pages a:visited {
+    color: #444034;
+
+}
+
+.links-pages a:hover {
+    color: #B85B39;
+
+}
+
+footer h1 {
+    text-decoration: underline;
+
+}
+
+footer a:visited {
+    color: #F0E7C6;
+
+}
+
+footer a:hover {
+    color: #B85B39;
+
+}
+
+.buttons {
+    display: flex;
+    width: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    width: 1250px;
+    padding-top: 20px;
+}
+
+.home-button {
+    padding-left: 50px;
+}
+
+.links-pages {
+    justify-content: flex-end;
+    display: flex;
+    gap: 60px;
+    color: #444034;
+}
+
+.contact-link {
+    width: 140px;
+    height: 15px;
+    padding-bottom: 30px;
+    background-color: #B85B39;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+.header-background {
+    background-color: #8C9657;
+    width: auto;
+    height: 800px;
+    z-index: 1;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.contact-page {
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.grijs-blok {
+    background-color: #444034;
+    width: 1519px;
+    height: 300px;
+    position: absolute;
+    left: 0px;
+    top: 700px;
+    z-index: -1;
+}
+
+.img-header {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}
+
+.conbodem {
+    position: relative;
+    bottom: 25px;
+}
+
+.portofol {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 169px;
+    color: #444034;
+}
+
+.contact-extra {
+    width: 300px;
+    height: 40px;
+    background-color: #B85B39;
+    border-radius: 10px;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.porto-contact {
+    position: absolute;
+    left: 950px;
+    top: 350px;
+    background-color: #8C9657;
+    width: 300px;
+    height: 250px;
+    z-index: 3;
+    border-radius: 40px;
+}
+
+.text2 {
+    position: absolute;
+    left: 400px;
+    top: 150px;
+}
+
+.text3 {
+    position: absolute;
+    left: 400px;
+    top: 275px;
+}
+
+.text4 {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+
+.text1 {
+    color: #F0E7C6;
+    position: absolute;
+    left: 400px;
+    top: 25px;
+    z-index: 2;
+}
+
+.footer-shape {
+    height: 200px;
+    width: auto;
+    background-color: #444034;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+footer {
+    font-family: 'montserrat';
+    color: #F0E7C6;
+}
+
+/*voor de hoofd pagina alleen*/
+
+
+.onder {
+    padding-top: 50px;
+    height: 1200px;
+    width: auto;
+    display: flex;
+}
+
+.hello {
+    width: 400px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 200px;
+    color: #444034;
+
+}
+
+.hello-text {
+    font-size: 100px;
+}
+
+
+
+.contact-form {
+    padding-left: 300px;
+    padding-top: 300px;
+}
+
+.contact-box {
+    width: 500px;
+    height: 800px;
+    background-color: #444034;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-picture {
+    padding-bottom: 50px;
+    width: 450px;
+    height: 450px;
+    background-color: #8C9657;
+}
+
+.contact-info {
+    width: 450px;
+    height: 250px;
+    background-color: #F0E7C6;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'montserrat';
+}
+
+.con {
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+    justify-content: center;
+    padding-right: 19px;
+    font-family: 'montserrat';
+
+}
+
+.con img {
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+
+.age {
+    position: relative;
+    top: 200px;
+    left: 250px;
+}
+
+.ethnicity {
+    position: relative;
+    top: 270px;
+    right: 150px;
+}
+
+.about-me-move {
+    padding-left: 15px;
+    width: 350px;
+    height: 300px;
+}
+
+.about-me-text {
+    background-color: #8C9657;
+    width: 450px;
+    height: 350px;
+
+}
+
+.about-me-box {
+    padding-left: 120px;
+}
+
+.about-me {
+    width: 500px;
+    height: 400px;
+    background-color: #444034;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.about-me-text {
+    color: #F0E7C6;
+    font-size: 25px;
+    justify-content: center;
+
+}
+
+/* voor previous project*/
+.projecten-onder {
+    padding-top: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.projects-school-img {
+    padding-top: 20px;
+    width: 600px;
+    height: 300px;
+    gap: 50px;
+}
+
+.projects-school-img-distance {
+    justify-content: space-evenly;
+}
+
+.school-dis {
+    display: flex;
+}
+
+.titel-project {
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+.text-personal-size {
+    width: 1500px;
+    justify-content: center;
+    display: flex;
+}
+
+.text-personal {
+    width: 800px;
+    font-size: 20px;
+
+}
+
+.foto-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-school {
+    text-align: center;
+    width: 500px;
+}
+
+.text-java {
+    width: 500px;
+
+}
+
+.java-projects {
+    padding-bottom: 100px;
+}
+
+/*about me page*/
+.background-about-me {
+    padding-top: 400px;
+    height: 2400px;
+    width: auto;
+}
+
+.schools {
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+
+}
+
+.current-school {
+    width: 500px;
+    height: 600px;
+    background-color: #444034;
+}
+
+.past-school {
+    width: 500px;
+    height: 600px;
+    background-color: #444034;
+}
+
+.specials {
+    width: auto;
+    height: 800px;
+    background-color: #8C9657;
+}
+
+.hobbies {
+    height: 500px;
+    width: auto;
+}
+
+/*contact page*/
+.contact-forms {
+    display: flex;
+    width: auto;
+    height: 800px;
+    justify-content: center;
+}
+
+.contact-text {margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.send-a-mail-box {
+    height: 650px;
+    width: 800px;
+    background-color: #444034;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.send-a-mail-text {
+    padding-top: 30px;
+    color: #F0E7C6;
+}
+
+.your-email-send-a-post {
+    width: 245px;
+    height: 20px;
+    background-color: #F0E7C6;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.your-message {
+    resize: none;
+    width: 500px;
+    height: 400px;
+    background-color: #F0E7C6;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#contact {
+    background-color: #F0E7C6;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 506px;
+
+}
+
+.send-button {
+    width: 100px;
+    height: 20px;
+    background-color: #F0E7C6;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: antiquewhite;
+
+    }
+}
