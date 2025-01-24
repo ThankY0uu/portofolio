@@ -201,7 +201,12 @@ footer {
 
 /*voor de hoofd pagina alleen*/
 
-
+.description{
+    justify-content: center;
+    padding-top: 10%;
+    width: 10%;
+    padding-left: 10%;
+}
 .onder {
     padding-top: 50px;
     height: 1200px;
@@ -212,8 +217,6 @@ footer {
 .hello {
     width: 400px;
     height: 300px;
-    margin-top: 200px;
-    margin-left: 200px;
     color: #444034;
 
 }
@@ -225,8 +228,8 @@ footer {
 
 
 .contact-form {
-    padding-left: 300px;
-    padding-top: 300px;
+padding-left: 38%;
+padding-top: 15%;
 }
 
 .contact-box {
@@ -297,10 +300,6 @@ footer {
     width: 450px;
     height: 350px;
 
-}
-
-.about-me-box {
-    padding-left: 120px;
 }
 
 .about-me {
