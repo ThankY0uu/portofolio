@@ -201,12 +201,13 @@ footer {
 
 /*voor de hoofd pagina alleen*/
 
-.description{
+.description {
     justify-content: center;
     padding-top: 10%;
     width: 10%;
     padding-left: 10%;
 }
+
 .onder {
     padding-top: 50px;
     height: 1200px;
@@ -228,8 +229,8 @@ footer {
 
 
 .contact-form {
-padding-left: 38%;
-padding-top: 15%;
+    padding-left: 35%;
+    padding-top: 15%;
 }
 
 .contact-box {
@@ -449,7 +450,4 @@ padding-top: 15%;
     border-color: black;
 }
 
-@media only screen and (max-width: 400px) {
-
-    
-}
+@media only screen and (max-width: 400px) {}
