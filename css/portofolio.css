@@ -6,10 +6,7 @@ body {
 
 }
 
-a:link {
-    text-decoration: none;
 
-}
 
 a:hover {
     color: #B85B39;
@@ -65,6 +62,10 @@ footer a:hover {
     gap: 60px;
     color: #444034;
 }
+.links-pages a:link{
+    color: #444034;
+    text-decoration: none;
+}
 
 .contact-link {
     width: 140px;
@@ -75,7 +76,12 @@ footer a:hover {
     display: flex;
     border-radius: 20px;
 }
-
+.contact-link a:link{
+    color: #444034;
+}
+.contact-link a:hover{
+    color: #8C9657;
+}
 .header-background {
     background-color: #8C9657;
     width: auto;
@@ -169,7 +175,10 @@ footer a:hover {
     top: 25px;
     z-index: 2;
 }
-
+.link-footer a:link{
+    color: #F0E7C6;
+    text-decoration: none;
+}
 .footer-shape {
     height: 200px;
     width: auto;
