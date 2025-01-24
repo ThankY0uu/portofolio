@@ -388,12 +388,12 @@ footer {
     background-color: #444034;
 }
 /*dit is alleen voor de javascript*/
-.my-image {
+#my-image {
     display: none;
     width: 300px;
     height: auto;
 }
-.toggle-button{
+#toggle-button{
     width: 100px;
     height: 30px;
     background-color: #444034;
