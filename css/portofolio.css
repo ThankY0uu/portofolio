@@ -5,8 +5,7 @@ body {
     font-family: 'montserrat';
 
 }
-
-
+/*dit is voor alle links*/
 
 a:hover {
     color: #B85B39;
@@ -51,6 +50,7 @@ footer a:hover {
     width: auto;
     padding-top: 20px;
 }
+/*dit is voor alle links*/
 
 .home-button {
     padding-left: 50px;
@@ -224,9 +224,6 @@ footer {
 .hello-text {
     font-size: 100px;
 }
-
-
-
 .contact-form {
     padding-left: 35%;
     padding-top: 15%;
@@ -327,6 +324,10 @@ footer {
     display: flex;
     
 }
+.specialty-fit{
+    display: flex;
+    justify-content: space-;
+}
 
 .programs {
     padding-left: 20%;
@@ -386,12 +387,10 @@ footer {
     height: 200px;
     background-color: #444034;
 }
-
+/*dit is alleen voor de javascript*/
 #my-image {
     display: none;
-    /* Initially hide the image */
     width: 300px;
-    /* Adjust the image size as needed */
     height: auto;
 }
 
@@ -524,4 +523,7 @@ footer {
     border-color: black;
 }
 
-@media only screen and (max-width: 400px) {}
+@media only screen and (max-width: 400px) {
+    /*ik had geen tijd hier voor, en ik snapte het ook niet*/
+
+}

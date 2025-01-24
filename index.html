@@ -10,8 +10,12 @@
 
 
 <body>
+    <!--hier begint de header-->
     <header>
+
+
         <div class="header-background">
+            <!--dit gaat over de link bar in de header-->
             <div class="buttons">
                 <div class="home-button">
                     <h1>Ty Tonjes</h1>
@@ -35,6 +39,9 @@
                     </div>
                 </div>
             </div>
+            <!--hier eindigt het-->
+            <!--dit gaat over de indeling van de header van de fotos-->
+
             <div class="fit-midden">
                 <p class="portofol text1">PORTOFOLIO</p>
                 <img class="img-header" src="fotos/headerfoto.png" alt="">
@@ -48,8 +55,13 @@
                 </div>
             </div>
             <div class="grijs-blok"></div>
+            <!--hier eindigt het-->
+
     </header>
-    <div class="onder">
+    <!--hier eindigt de header-->
+    <!--hier begint de main van de page-->
+
+    <main class="onder">
         <div class="description">
             <div class="hello">
                 <h1 class="hello-text">Hello, I'm Ty</h1>
@@ -91,34 +103,45 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+    <!--hier eindigt de main-->
+    <!--hier begint de showcase van de page-->
+
     <div class="specialty">
-        <div class="program">
-            <div class="programmas-shape">
-                <div class="programmas p-text">
-                    <h1>These are the main programs i use</h1>
-                </div>
-                <div class="programmas p-img">
-                    <img src="fotos/css logo.png" alt="picture of CSS">
-                    <img src="fotos/java-logo-svg-vector.svg " alt="picture of Java">
-                    <img src="fotos/HTML5_logo_and_wordmark.svg.png " alt="picture of HTML5">
+        <div class="specialty-fit">
+            <div class="program">
+                <div class="programmas-shape">
+                    <div class="programmas p-text">
+                        <h1>These are the main programs i use</h1>
+                    </div>
+                    <div class="programmas p-img">
+                        <img src="fotos/css logo.png" alt="picture of CSS">
+                        <img src="fotos/java-logo-svg-vector.svg " alt="picture of Java">
+                        <img src="fotos/HTML5_logo_and_wordmark.svg.png " alt="picture of HTML5">
 
 
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="picture-suprise">
-            <h1>Click the Button to Reveal the Picture</h1>
-            <h2>For this i used a little bit of JavaScipt to make a little suprise</h2>
-            <button id="toggle-Button">Show Picture</button>
+            <div class="picture-suprise">
+                <h1>Click the Button to Reveal the Picture</h1>
+                <h2>For this i used a little bit of JavaScipt to make a little suprise</h2>
+                <button id="toggle-Button">Show Picture</button>
 
+            </div>
+            <div>
+                <img id="my-image" src="fotos/Image (1).jpg" alt="A placeholder image">
+            </div>
         </div>
-         <img id="my-image" src="fotos/Image (1).jpg" alt="A placeholder image">
-
     </div>
+    <!--hier eindigt de showcase-->
+    <!--hier begint de footer-->
+
     <footer>
         <div class="footer-shape">
             <div class="pages">
+                <!--dit zijn de links-->
+
                 <h1>Pages</h1>
                 <a href="index.html">
                     <p class="link-footer">Home page</p>
@@ -140,21 +163,22 @@
             </div>
         </div>
     </footer>
+    <!--hier eindigt de footer-->
 
 </body>
+    <!--dit is de javascript die ik gebruikt hebt, ik vond het op google-->
+
 <script>
-    // Get references to the button and image
     const button = document.getElementById('toggle-Button');
     const image = document.getElementById('my-image');
 
-    // Add an event listener to the button
     button.addEventListener('click', () => {
         if (image.style.display === 'none' || image.style.display === '') {
-            // Show the image
+            //dit laat de foto zien
             image.style.display = 'block';
             button.textContent = 'Hide Picture';
         } else {
-            // Hide the image
+            //dit laat de foto verstoppen
             image.style.display = 'none';
             button.textContent = 'Show Picture';
         }
