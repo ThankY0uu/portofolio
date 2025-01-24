@@ -179,8 +179,7 @@ footer a:hover {
     top: 25px;
     z-index: 2;
 }
-
-.link-footer a:link {
+a:link {
     color: #F0E7C6;
     text-decoration: none;
 }
