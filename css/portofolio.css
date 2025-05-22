@@ -1,535 +1,692 @@
-/*universal code*/
-body {
-    background-color: #F0E7C6;
-    margin: 0;
-    font-family: 'montserrat';
+    /*universal code*/
+    body {
+        background-color: #F0E7C6;
+        margin: 0;
+        font-family: 'montserrat';
 
-}
-/*dit is voor alle links*/
+    }
 
-a:hover {
-    color: #B85B39;
-    text-decoration: dashed;
-}
+    /*dit is voor alle links*/
 
-.links-pages a:visited {
-    color: #444034;
+    a:hover {
+        color: #B85B39;
+        text-decoration: dashed;
+    }
 
-}
+    .links-pages a:visited {
+        color: #444034;
 
-.links-pages a:hover {
-    color: #B85B39;
+    }
 
-}
+    .links-pages a:hover {
+        color: #B85B39;
 
-footer h1 {
-    text-decoration: underline;
+    }
 
-}
+    footer h1 {
+        text-decoration: underline;
 
-footer a:visited {
-    color: #F0E7C6;
+    }
 
-}
+    footer a:visited {
+        color: #F0E7C6;
 
-footer a:hover {
-    color: #B85B39;
+    }
 
-}
+    footer a:hover {
+        color: #B85B39;
 
-.buttons {
-    display: flex;
-    width: auto;
-    justify-content: space-between;
+    }
 
-}
+    .buttons {
+        display: flex;
+        width: auto;
+        gap: 50%;
+    }
 
-.links {
-    display: flex;
+    .links {
+        display: flex;
 
-    width: auto;
-    padding-top: 20px;
-}
-/*dit is voor alle links*/
+        width: auto;
+        padding-top: 20px;
+    }
 
-.home-button {
-    padding-left: 50px;
-}
+    /*dit is voor alle links*/
 
-.links-pages {
-    justify-content: flex-end;
-    display: flex;
-    gap: 60px;
-    color: #444034;
-}
+    .home-button {
+        padding-left: 50px;
+    }
 
-.links-pages a:link {
-    color: #444034;
-    text-decoration: none;
-}
+    .links-pages {
+        justify-content: flex-end;
+        display: flex;
+        gap: 60px;
+        color: #444034;
+    }
 
-.contact-link {
-    width: 140px;
-    height: 15px;
-    padding-bottom: 30px;
-    background-color: #B85B39;
+    .links-pages a:link {
+        color: #444034;
+        text-decoration: none;
+    }
+
+    .contact-link {
+        width: 140px;
+        height: 15px;
+        padding-bottom: 30px;
+        background-color: #B85B39;
+        justify-content: center;
+        display: flex;
+        border-radius: 20px;
+    }
+
+    .contact-link a:link {
+        color: #444034;
+    }
+
+    .contact-link a:hover {
+        color: #8C9657;
+    }
+
+    .header-background {
+        background-color: #8C9657;
+        width: 100%;
+        height: 700px;
+        z-index: 1;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+/*  */
+    .contact-page {
+        height: 100px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .grijs-blok {
+        background-color: #444034;
+        width: 100%;
+        height: 200px;
+        margin-top: 500px;
+        z-index: -1;
+    }
+
+    .img-header {
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        z-index: 1;
+    }
+
+    .conbodem {
+        position: relative;
+        bottom: 25px;
+    }
+
+    .portofol {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 169px;
+        color: #444034;
+    }
+
+    .contact-extra {
+        width: 300px;
+        height: 40px;
+        background-color: #B85B39;
+        border-radius: 10px;
+        font-size: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .porto-contact {
+        position: absolute;
+        left: 80%;
+        top: 350px;
+        transform: translateX(-50%);
+        background-color: #8C9657;
+        width: 300px;
+        height: auto;
+        padding: 20px;
+        z-index: 3;
+        border-radius: 25px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        color: #F0E7C6;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .porto-contact h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .social-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        transition: transform 0.2s ease;
+    }
+
+    .social-item i {
+        font-size: 20px;
+    }
+
+    .social-item:hover {
+        transform: scale(1.05);
+        color: #B85B39;
+    }
+
+
+    .text2 {
+        position: absolute;
+        left: 400px;
+        top: 150px;
+    }
+
+    .text3 {
+        position: absolute;
+        left: 400px;
+        top: 275px;
+    }
+
+    .text4 {
+        position: absolute;
+        left: 400px;
+        top: 400px;
+    }
+
+
+    .text1 {
+        color: #F0E7C6;
+        position: absolute;
+        left: 400px;
+        top: 25px;
+        z-index: 2;
+    }
+
+    a:link {
+        color: #F0E7C6;
+        text-decoration: none;
+    }
+
+    .footer-shape {
+        height: 200px;
+        width: auto;
+        background-color: #444034;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    footer {
+        font-family: 'montserrat';
+        color: #F0E7C6;
+    }
+
+    /*voor de hoofd pagina alleen*/
+
+      .contact-form2 {
+        padding-left: 35%;
+        padding-top: 15%;
+    }
+    
+    .description {
+        justify-content: center;
+        padding-top: 10%;
+        width: 10%;
+        padding-left: 10%;
+    }
+
+    .onder {
+        padding-top: 50px;
+        height: 1200px;
+        width: 100%;
+        display: flex;
+    }
+
+    .hello {
+        width: 400px;
+        height: 300px;
+        color: #444034;
+
+    }
+
+    .hello-text {
+        font-size: 100px;
+    }
+
+  
+    .contact-box1 {
+        width: 100%;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    .contact-box2 {
+        width: 500px;
+        height: 800px;
+        background-color: #444034;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-picture {
+        padding-bottom: 50px;
+        width: 450px;
+        height: 450px;
+        background-color: #8C9657;
+    }
+
+    .contact-info {
+        width: 450px;
+        height: 250px;
+        background-color: #F0E7C6;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'montserrat';
+    }
+
+    .con {
+        display: flex;
+        gap: 15px;
+        font-size: 24px;
+        justify-content: center;
+        padding-right: 19px;
+        font-family: 'montserrat';
+
+    }
+
+    .con img {
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+
+    .age {
+        position: relative;
+        bottom: 100px;
+        left: 300px;
+    }
+
+    .ethnicity {
+        position: relative;
+        bottom: 250px;
+        right: 150px;
+    }
+
+    .about-me-move {
+        padding-left: 15px;
+        width: 350px;
+        height: 300px;
+    }
+
+    .about-me-text {
+        background-color: #8C9657;
+        width: 450px;
+        height: 350px;
+
+    }
+
+    .about-me {
+        width: 500px;
+        height: 400px;
+        background-color: #444034;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 30px;
+    }
+
+    .about-me-text {
+        color: #F0E7C6;
+        font-size: 25px;
+        justify-content: center;
+
+    }
+
+    .specialty {
+        width: 100%;
+        height: 500px;
+        background-color: #8C9657;
+        display: flex;
+
+    }
+
+    .specialty-fit {
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+
+    }
+
+
+    .contact-picture-me {
+        position: relative;
+        top: 100px;
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .contact-picture-me img {
+        height: 400px;
+        width: auto;
+    }
+
+    .programmas {
+        width: 40%;
+        height: 300px;
+        background-color: #444034;
+    }
+
+    .p-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #F0E7C6;
+    }
+
+    .p-img {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .p-img img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .picture-suprise {
+        padding-left: 10%;
+        width: 400px;
+        height: 200px;
+    }
+
+    /*dit is alleen voor de javascript*/
+    #my-image {
+        display: none;
+        width: 300px;
+        height: auto;
+    }
+
+    #toggle-button {
+        width: 100px;
+        height: 30px;
+        background-color: #444034;
+        color: #F0E7C6;
+    }
+
+    /* voor previous project*/
+    .projecten-onder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .projects-school-img {
+        padding-top: 10px;
+        width: 600px;
+        height: 300px;
+        gap: 50px;
+    }
+
+    .projects-school-img-distance {
+        justify-content: space-evenly;
+    }
+
+    .school-dis {
+        display: flex;
+    }
+
+    .titel-project {
+        padding-top: 80px;
+        font-size: 50px;
+    }
+
+    .text-personal-size {
+        width: 1500px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .text-personal {
+        width: 800px;
+        font-size: 20px;
+
+    }
+
+    .foto-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-school {
+        text-align: center;
+        width: 500px;
+    }
+
+    .text-java {
+        width: 500px;
+
+    }
+
+    .java-projects {
+        padding-bottom: 100px;
+    }
+
+
+    /*contact page*/
+.contact-text{
     justify-content: center;
     display: flex;
-    border-radius: 20px;
-}
-
-.contact-link a:link {
-    color: #444034;
-}
-
-.contact-link a:hover {
-    color: #8C9657;
-}
-
-.header-background {
-    background-color: #8C9657;
-    width: 100%;
-    height: 800px;
-    z-index: 1;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-}
-
-.contact-page {
-    height: 100px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.grijs-blok {
-    background-color: #444034;
-    width: 100%;
-    height: 300px;
-    position: relative;
-    left: 0px;
-    top: 600px;
-    z-index: -1;
-}
-
-.img-header {
-    position: absolute;
-    left: 100px;
-    top: 100px;
-    z-index: 1;
-}
-
-.conbodem {
-    position: relative;
-    bottom: 25px;
-}
-
-.portofol {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 150px;
-    line-height: 169px;
-    color: #444034;
-}
-
-.contact-extra {
-    width: 300px;
-    height: 40px;
-    background-color: #B85B39;
-    border-radius: 10px;
-    font-size: 20px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.porto-contact {
-    position: absolute;
-    left: 950px;
-    top: 350px;
-    background-color: #8C9657;
-    width: 300px;
-    height: 250px;
-    z-index: 3;
-    border-radius: 40px;
-}
-
-.text2 {
-    position: absolute;
-    left: 400px;
-    top: 150px;
-}
-
-.text3 {
-    position: absolute;
-    left: 400px;
-    top: 275px;
-}
-
-.text4 {
-    position: absolute;
-    left: 400px;
-    top: 400px;
-}
-
-
-.text1 {
-    color: #F0E7C6;
-    position: absolute;
-    left: 400px;
-    top: 25px;
-    z-index: 2;
-}
-a:link {
-    color: #F0E7C6;
-    text-decoration: none;
-}
-
-.footer-shape {
-    height: 200px;
-    width: auto;
-    background-color: #444034;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-footer {
-    font-family: 'montserrat';
-    color: #F0E7C6;
-}
-
-/*voor de hoofd pagina alleen*/
-
-.description {
-    justify-content: center;
-    padding-top: 10%;
-    width: 10%;
-    padding-left: 10%;
-}
-
-.onder {
-    padding-top: 50px;
-    height: 1200px;
-    width: 100%;
-    display: flex;
-}
-
-.hello {
-    width: 400px;
-    height: 300px;
-    color: #444034;
-
-}
-
-.hello-text {
-    font-size: 100px;
 }
 .contact-form {
-    padding-left: 35%;
-    padding-top: 15%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #444034;
+  color: #F0E7C6;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Montserrat', sans-serif;
+  
 }
 
-.contact-box {
-    width: 500px;
-    height: 800px;
-    background-color: #444034;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
-.contact-picture {
-    padding-bottom: 50px;
-    width: 450px;
-    height: 450px;
-    background-color: #8C9657;
+.contact-form button {
+  background-color: #B85B39;
+  color: #F0E7C6;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-.contact-info {
-    width: 450px;
-    height: 250px;
-    background-color: #F0E7C6;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'montserrat';
-}
-
-.con {
-    display: flex;
-    gap: 15px;
-    font-size: 24px;
-    justify-content: center;
-    padding-right: 19px;
-    font-family: 'montserrat';
-
-}
-
-.con img {
-    width: 40px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
+.contact-form button:hover {
+  background-color: #8C9657;
 }
 
 
-.age {
-    position: relative;
-    bottom: 100px;
-    left: 300px;
-}
 
-.ethnicity {
-    position: relative;
-    bottom: 250px;
-    right: 150px;
-}
-
-.about-me-move {
-    padding-left: 15px;
-    width: 350px;
-    height: 300px;
-}
-
-.about-me-text {
-    background-color: #8C9657;
-    width: 450px;
-    height: 350px;
-
-}
-
-.about-me {
-    width: 500px;
-    height: 400px;
-    background-color: #444034;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 30px;
-}
-
-.about-me-text {
-    color: #F0E7C6;
-    font-size: 25px;
-    justify-content: center;
-
-}
-
-.specialty {
-    width: 100%;
-    height: 500px;
-    background-color: #8C9657;
-    display: flex;
-    
-}
-.specialty-fit{
-    display: flex;
-    justify-content: space-;
-}
-
-.programs {
-    padding-left: 20%;
-    padding-top: 10%;
-
-}
-
-.contact-picture-me {
-    position: relative;
-    top: 100px;
-    justify-content: center;
-    display: flex;
-    align-items: flex-end;
-}
-
-.contact-picture-me img {
-    height: 400px;
-    width: auto;
-}
-
-.programmas-shape {
-    display: flex;
-    padding-left: 10%;
-
-    width: 50%;
-    height: 500px;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.p-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #F0E7C6;
-}
-
-.p-img {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.p-img img {
-    width: 120px;
-    height: 120px;
-}
-.picture-suprise{
-    padding-left: 10%;
-    width: 400px;
-    height: 200px;
-}
-.programmas {
-    width: 400px;
-    height: 200px;
-    background-color: #444034;
-}
-/*dit is alleen voor de javascript*/
-#my-image {
-    display: none;
-    width: 300px;
-    height: auto;
-}
-#toggle-button{
-    width: 100px;
-    height: 30px;
-    background-color: #444034;
-    color: #F0E7C6;
-}
-
-/* voor previous project*/
-.projecten-onder {
-    padding-top: 175px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    gap: 100px;
-}
-
-.projects-school-img {
-    padding-top: 20px;
-    width: 600px;
-    height: 300px;
-    gap: 50px;
-}
-
-.projects-school-img-distance {
-    justify-content: space-evenly;
-}
-
-.school-dis {
-    display: flex;
-}
 
 .titel-project {
-    padding-top: 80px;
-    font-size: 50px;
+  font-size: 40px;
+  color: #444034;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
 }
 
-.text-personal-size {
-    width: 1500px;
-    justify-content: center;
-    display: flex;
+.gallery-container {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
-.text-personal {
-    width: 800px;
-    font-size: 20px;
-
+.gallery-slide {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
 }
 
-.foto-description {
-    display: flex;
+.gallery-slide.active {
+  display: flex;
+}
+
+.gallery-slide img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.gallery-description {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #444034;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gallery-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-buttons button {
+  background-color: #8C9657;
+  color: #F0E7C6;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gallery-buttons button:hover {
+  background-color: #B85B39;
+}
+
+   @media (max-width: 768px) {
+
+  /* Header layout aanpassen */
+  .buttons {
     flex-direction: column;
     align-items: center;
-}
+    gap: 20px;
+  }
 
-.text-school {
+  .links-pages {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .header-background {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .porto-contact {
+    position: static;
+    margin-top: 30px;
+    width: 90%;
+    transform: none;
+  }
+
+  .img-header {
+    position: static;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .portofol {
+    font-size: 48px;
     text-align: center;
-    width: 500px;
-}
+  }
 
-.text-java {
-    width: 500px;
+  /* Main layout */
+  .onder {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+  }
 
-}
-
-.java-projects {
-    padding-bottom: 100px;
-}
-
-
-/*contact page*/
-.contact-forms {
-    display: flex;
-    width: 100%;
-    height: 800px;
-    justify-content: center;
-}
-
-.contact-text {
-    margin-top: 50px;
+  .hello-text {
+    font-size: 48px;
     text-align: center;
-    font-size: 40px;
-}
+  }
 
-.send-a-mail-box {
-    height: 650px;
-    width: 800px;
-    background-color: #444034;
-    justify-content: center;
-    text-align: center;
-    border-radius: 30px;
-    margin-left: 30px;
-}
+  .description,
+  .about-me,
+  .contact-box2 {
+    width: 90% !important;
+  }
 
-.send-a-mail-text {
-    padding-top: 30px;
-    color: #F0E7C6;
-}
+  /* Contactformulier */
+  .contact-form {
+    width: 90%;
+    padding: 20px;
+  }
 
-.your-email-send-a-post {
-    width: 245px;
-    height: 20px;
-    background-color: #F0E7C6;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-}
+  /* Footer */
+  .footer-shape {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0;
+  }
 
-.your-message {
-    resize: none;
-    width: 500px;
-    height: 400px;
-    background-color: #F0E7C6;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-}
+  .programmas,
+  .p-img {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
 
-#contact {
-    background-color: #F0E7C6;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    width: 506px;
+  .gallery-slide img {
+    max-height: 250px;
+  }
 
-}
-
-.send-button {
-    width: 100px;
-    height: 20px;
-    background-color: #F0E7C6;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-}
-
-@media only screen and (max-width: 400px) {
-    /*ik had geen tijd hier voor, en ik snapte het ook niet*/
-
+  .gallery-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
 }

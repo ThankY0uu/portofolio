@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <title> hoofd pagina </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecten Pagina</title>
     <link rel="stylesheet" href="css/portofolio.css">
     <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
-    <!--hier begint de header-->
     <header>
-
-
-        <div class="header-background">
+        <div class="header-background contact-page">
             <!--dit gaat over de link bar in de header-->
+
             <div class="buttons">
                 <div class="home-button">
                     <h1>Ty Tonjes</h1>
@@ -22,16 +22,15 @@
                 <div class="links">
                     <div class="links-pages">
                         <a href="index.html">
-                            <p>Homepage</p>
+                            <p>Hoofdpagina</p>
                         </a>
 
-
                         <a href="projects.html">
-                            <p>Previous projects</p>
+                            <p>Projecten</p>
                         </a>
                         <div class="contact-link">
                             <a href="contact.html">
-                                <p>contact me</p>
+                                <p>contact</p>
                             </a>
                         </div>
 
@@ -39,92 +38,70 @@
                 </div>
             </div>
             <!--hier eindigt het-->
-            <!--dit gaat over de indeling van de header van de fotos-->
-
-            <div class="fit-midden">
-                <p class="portofol text1">PORTOFOLIO</p>
-                <img class="img-header" src="fotos/headerfoto.png" alt="foto van mij">
-                <p class="portofol text2">PORTOFOLIO</p>
-                <p class="portofol text3">PORTOFOLIO</p>
-                <p class="portofol text4">PORTOFOLIO</p>
-                <div class="porto-contact">
-                    <h1>My Socials</h1>
-                    <p>IG: @_thanky0uu_</p>
-                    <p>Git: @ThankY0uu</p>
-                </div>
-            </div>
-            <div class="grijs-blok"></div>
-            <!--hier eindigt het-->
-
     </header>
-    <!--hier eindigt de header-->
-    <div class="projecten-onder">
-
-            <!--hier heb ik staan waar ik allemaal aan gewerkt heb-->
-
-        <h1 class="titel-project">These are the past projects that i have worked on</h1>
 
 
+    <!-- Projecten Gallerij -->
+    <main class="projecten-onder">
+        <h1 class="titel-project">Dit zijn de vorige projecten waar ik eerder aan gewerkt heb</h1>
+        <h1>Projecten Gallerij</h1>
 
-        <div class="projects-school">
-            <h1>School Projects</h1>
-            <div class="projects-school-img-distance school-dis">
-
-                <div class="foto-description"> <img class="projects-school-img" src="fotos/pinkgoose header.png" alt="pink goose foto">
-                    <p class="text-school">this project was called PinkGoose, it was the first school project i worked
-                        on</p>
-                </div>
-                <div class="foto-description"> <img class="projects-school-img" src="fotos/projectweek header.png"
-                        alt="project week foto">
-                    <p class="text-school">this project was called Project-week and it was a project i worked on with my
-                        classmates</p>
-                </div>
+        <div class="gallery-container">
+            <div class="gallery-slide active">
+                <img src="fotos/pinkgoose header.png" alt="PinkGoose">
+                <p class="gallery-description">Dit is PinkGoose, mijn eerste project waar ik aan gewerkt heb.<br><br>
+                    Bestaat
+                    uit HTML & CSS</p>
+            </div>
+            <div class="gallery-slide">
+                <img src="fotos/vliegmaatschapij.png" alt="Vliegmaatschapij">
+                <p class="gallery-description">Dit is een vliegmaatschapij waar ik met wat klasgenoten had aan gewerkt.
+                    <br><br> Bestaat uit PHP, HTML, JS & CSS
+                </p>
+            </div>
+            <div class="gallery-slide">
+                <img src="fotos/mam.png" alt="Mam streetfood">
+                <p class="gallery-description">Dit is een pagina die ik heb gemaakt voor Mam Streetfood in Nijmgen.
+                    <br><br> Bestaat uit PHP, HTML, JS & CSS
+                </p>
+            </div>
+            <div class="gallery-slide">
+                <img src="fotos/Schermafbeelding 2025-01-21 130852.png" alt="Second Personal Project">
+                <p class="gallery-description">Dit is een persoonlijke project die ik gemaakt had in mijn vrije tijd
+                    <br><br> Bestaat uit HTML & CSS
+                </p>
+            </div>
+            <div class="gallery-slide">
+                <img src="fotos/superheroes.png" alt="Java Superheroes">
+                <p class="gallery-description">Dit is een Java project die ik gemaakt heb waarmee je een superhelden
+                    team samen kan stellen om tegen slechterijken te vechten. <br><br>Bestaat uit Java</p>
+            </div>
+            <div class="gallery-slide">
+                <img src="fotos/mastermind.png" alt="Java Mastermind">
+                <p class="gallery-description">Dit is het spel Mastermind nagemaakt met Java.<br><br>Bestaat uit Java
+                </p>
             </div>
         </div>
-        <div class="personal-projects ">
-            <h1>Personal Projects</h1>
-            <div class="projects-school-img-distance school-dis">
-                <img class="projects-school-img" src="fotos/personalproject header.png" alt="persoonlijke project foto">
-                <img class="projects-school-img" src="fotos/Schermafbeelding 2025-01-21 130852.png" alt="persoonlijke project foto">
-            </div>
-            <div class="text-personal-size">
-                <p class="text-personal">I made this project to pass some time, it was linked to the pink goose website
-                    and if
-                    you were to click the login button you would be switched to an alien version of the website. i
-                    didn't turn it in for obvious reasons but it was pretty fun to make with my spare time</p>
-            </div>
+
+        <div class="gallery-buttons">
+            <button onclick="changeSlide(-1)">Vorige</button>
+            <button onclick="changeSlide(1)">Volgende</button>
         </div>
+    </main>
 
-        <div class="java-projects">
-            <h1>Java Projects</h1>
-            <h2>These are the projects that i worked on with java</h2>
-            <div class="projects-school-img-distance school-dis">
-                <div class="foto-description"> <img class="projects-school-img" src="fotos/superheroes.png" alt="Java foto">
-                    <p class="text-java">This Java project was a little superhero game where you could make your own
-                        team and fight bad guys</p>
-                </div>
-                <div class="foto-description"> <img class="projects-school-img" src="fotos/mastermind.png" alt="Java foto">
-                    <p class="text-java">This Java project was inspired off Mastermind/Codebreaker where the computer
-                        makes a code and you guess it</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-        <!--hier begint de footer-->
-
+    <!-- Footer -->
     <footer>
         <div class="footer-shape">
             <div class="pages">
                 <!--dit zijn de links-->
 
-                <h1>Pages</h1>
+                <h1>Pagina's</h1>
                 <a href="index.html">
-                    <p class="link-footer">Home page</p>
+                    <p class="link-footer">Hoofdpagina</p>
                 </a>
 
                 <a href="projects.html">
-                    <p class="link-footer">Projects</p>
+                    <p class="link-footer">Projecten</p>
                 </a>
             </div>
             <div class="socials">
@@ -139,7 +116,18 @@
             </div>
         </div>
     </footer>
-    <!--hier eindigt de footer-->
+
+    <!-- Script -->
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.gallery-slide');
+
+        function changeSlide(direction) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + direction + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+    </script>
 </body>
 
 </html>

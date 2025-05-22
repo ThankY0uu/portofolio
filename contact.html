@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title> hoofd pagina </title>
+    <title> contact pagina </title>
     <link rel="stylesheet" href="css/portofolio.css">
     <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
@@ -11,7 +11,7 @@
 
 <body>
     <!--hier begint de header-->
-    <header>
+      <header>
         <div class="header-background contact-page">
             <!--dit gaat over de link bar in de header-->
 
@@ -22,15 +22,15 @@
                 <div class="links">
                     <div class="links-pages">
                         <a href="index.html">
-                            <p>Homepage</p>
+                            <p>Hoofdpagina</p>
                         </a>
 
                         <a href="projects.html">
-                            <p>Previous projects</p>
+                            <p>Projecten</p>
                         </a>
                         <div class="contact-link">
                             <a href="contact.html">
-                                <p>contact me</p>
+                                <p>contact</p>
                             </a>
                         </div>
 
@@ -38,52 +38,37 @@
                 </div>
             </div>
             <!--hier eindigt het-->
-
     </header>
     <!--hier eindigt de header-->
+<div class="contact-box1">  
+    <h1 class="contact-text">Je kan mij bereiken via deze forum</h1>
+    <form action="https://formspree.io/f/mrbqvkbg" method="POST" class="contact-form">
+        <label for="name">Naam</label>
+        <input type="text" name="name" required>
 
-    <h1 class="contact-text">You can contact me if you fill in this form</h1>
-    <div class="contact-forms">
-                    <!--hier begint de form-->
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
 
-        <form class="send-a-mail">
-            <div class="send-a-mail-box">
-                <div class="send-a-mail-text">
-                    <h1>Send me a email!</h1>
-                </div>
-                <input class="your-email-send-a-post" type="email" placeholder="Your email">
-                <input class="your-email-send-a-post" type="name" placeholder="Your name">
-                <div><textarea class="your-message" placeholder="Your message" rows="4"></textarea></div>
-                <select id="contact" name="" aria-placeholder="what do you need">
-                    <option value="null"></option>
-                    <option value="HTML">Website/HTML problem</option>
-                    <option value="Java">Java problem</option>
-                    <option value="CSS">Website/CSS problem</option>
-                    <option value="Other">Other</option>
+        <label for="message">Bericht</label>
+        <textarea name="message" rows="5" required></textarea>
 
-                </select>
-                <div class="send-button-pos">
-                    <button class="send-button">Send</button>
-                </div>
-            </div>
-                        <!--hier eindigt het-->
+        <button type="submit">Verstuur</button>
+    </form>
+</div>
+    <!--hier begint de footer-->
 
-        </form>
-    </div>
-        <!--hier begint de footer-->
-
-    <footer>
+      <footer>
         <div class="footer-shape">
             <div class="pages">
                 <!--dit zijn de links-->
 
-                <h1>Pages</h1>
+                <h1>Pagina's</h1>
                 <a href="index.html">
-                    <p class="link-footer">Home page</p>
+                    <p class="link-footer">Hoofdpagina</p>
                 </a>
 
                 <a href="projects.html">
-                    <p class="link-footer">Projects</p>
+                    <p class="link-footer">Projecten</p>
                 </a>
             </div>
             <div class="socials">
